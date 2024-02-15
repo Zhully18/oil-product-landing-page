@@ -1,0 +1,44 @@
+.desc_header h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.desc_header p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.main_desc{
+    display: flex;
+    align-items: center;
+    padding-inline: 100px;
+    height: 70vh;
+    position: relative;
+}
+
+.first{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+}
+.first h3{
+    font-size: 24px;
+}
+.semi_shape{
+    content: '';
+    position: absolute;
+    background: rgb(255, 229, 111);
+    width: 350px;
+    height: 200px;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    bottom: 5%;
+    left: 420px;
+}
+.second img{
+    position: relative;
+    z-index: 1;
+}
+.icons{
+    font-size: 35px;
+    border-radius: 50%;
+}

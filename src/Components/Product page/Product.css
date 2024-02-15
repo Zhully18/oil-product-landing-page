@@ -1,0 +1,47 @@
+.product{
+    height: 100vh;
+}
+.p_header h1{
+    text-align: center;
+    font-size: 40px;
+}
+.p_header .p_text{
+    text-align: center;
+    font-size: 18px;
+}
+.product_display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    gap: 30px;
+}
+.products img{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+.upp_semi_shape{
+    content: '';
+    position: absolute;
+    background: rgb(255, 229, 111);
+    width: 300px;
+    height: 150px;
+    border-radius: 50% 50% 0 0/100% 100% 0 0;
+    margin-left: 110px;
+    margin-top: -160px;
+}
+.products .text{
+    margin-left: 110px;
+}
+.products button{
+    background: orangered;
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-top: 10px;
+    border-radius: 25px 0 25px 0;
+    margin-left: 110px;
+}

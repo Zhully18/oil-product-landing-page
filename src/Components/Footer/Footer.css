@@ -1,0 +1,40 @@
+.footer{
+    height: 20vh;
+}
+.footer_body{
+    display: flex;
+    background: black;
+    width: 90%;
+    height: 100px;
+    margin-left: 47px;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.right{
+    color: white;
+    margin-left: 10px;
+}
+.footer_talk h2{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.footer_talk p{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.footer_left{
+    display: flex;
+}
+.footer_left input{
+    height: 50px;
+    margin-top: 20px;
+    width: 400px;
+}
+.footer_left button{
+    background: orangered;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 120px;
+}
